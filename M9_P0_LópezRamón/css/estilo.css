@@ -1,0 +1,349 @@
+* {
+    font-family: 'Roboto Slab', serif; /* Establece la fuente de letra a 'Roboto Slab' si está disponible, y a una fuente genérica 'serif' si no. */
+    font-size: 20px; /* Establece el tamaño de fuente de todos los elementos en la página a 20 píxeles. */
+    margin: 0; /* Establece el margen de todos los elementos en la página a 0. */
+    padding: 0; /* Establece el relleno de todos los elementos en la página a 0. */
+}
+
+li ul {
+    display: none; /* Con display: none; ocultamos el elemento al navegador, evitando que se muestre en la página web. */
+}
+
+#lista li:hover>ul{
+    display: block; /*Un elemento de bloque es un elemento que ocupa el ancho máximo disponible*/
+    text-decoration: none; /*Con esto podemos quitarle la decoracion que hay en el texto como vienen siendo enlaces o otros tipos*/
+    list-style: none; /*Con esto quitaremos los puntos que se adhieren a la lista*/
+}
+
+#lista {
+    list-style: none; /* Elimina los puntos o marcadores que se muestran en la lista por defecto. */
+    background-color: #f5f6f7; /* Establece el color de fondo de este elemento. */
+    width: 17rem; /* Define el ancho del elemento. */
+    padding: 20px; /* Agrega espacio relleno alrededor del contenido del elemento. */
+    color: gray; /* Establece el color de texto en gris. */
+    justify-content: center; /* Justifica el contenido del elemento en el centro, esto suele utilizarse en contenedores flexibles. */
+    align-items: center; /* Alinea el contenido al centro, también común en contenedores flexibles. */
+    order: 1; /* Especifica el orden utilizado para disponer los elementos en su contenedor flexible. */
+    flex: 1; /* Define la capacidad de flexión de un elemento en un contexto de diseño flexible. */
+}
+
+#menuIzq li {
+    font-size: 0.9em; /* Define el tamaño de fuente del texto en 0.9em. */
+    margin: 15px; /* Establece un margen de 15 píxeles alrededor del elemento. */
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75); /* Agrega una línea sólida de 1 píxel de grosor debajo del elemento. */
+    text-align: left; /* Alinea el texto a la izquierda. */
+    padding-bottom: 10px; /* Agrega un relleno en la parte inferior del elemento de 10 píxeles. */
+    letter-spacing: 0.07em; /* Define una cantidad adicional de espacio entre caracteres. */
+    text-decoration: none; /* Elimina la decoración de texto, como subrayado, que generalmente se aplica a enlaces u otros elementos. */
+    list-style: none; /* Elimina los puntos o marcadores que se muestran en las listas, lo que es común para las listas por defecto. */
+}
+
+#lista h2 {
+    font-family: 'Roboto Slab', serif; /* Agregamos una fuente de letra ('Roboto Slab' o una fuente genérica 'serif'). */
+    font-size: 1.38889rem; /* Establece el tamaño de fuente en 1.38889rem. */
+    color: #3d4449; /* Define el color de texto en #3d4449. */
+    border-bottom: solid 3px #f56a6a; /* Agrega una línea sólida de 3 píxeles de grosor debajo del elemento con un color de #f56a6a. */
+    display: inline-block; /* Crea cajas que son de bloque y en línea de forma simultánea. */
+    margin: 15px; /* Establece un margen de 15 píxeles alrededor del elemento. */
+}
+
+ul {
+    text-decoration: none; /* Elimina la decoración de texto, como subrayado, que generalmente se aplica a enlaces u otros elementos. */
+    list-style: none; /* Quita los puntos o marcadores de la lista. */
+}
+
+li {
+    text-decoration: none; /* Elimina la decoración de texto, como el subrayado, común en enlaces u otros elementos. */
+    list-style: none; /* Quita los puntos o marcadores de la lista, que suelen aparecer por defecto. */
+}
+
+a {
+    text-decoration: none; /* Elimina la decoración de texto, como el subrayado, común en enlaces y otros elementos. */
+    color: #3d4449; /* Define el color del texto en #3d4449. */
+}
+
+#informacion1 {
+    display: flex; /* La propiedad 'display: flex' permite maquetar las páginas web de manera más fácil y flexible que enfoques tradicionales. */
+}
+
+
+#informacion1 i{
+    padding: 15px;/*Con el padding lograremos darle un espacio relleno*/
+}
+
+#informacion2{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+}
+
+#informacion2 i{
+    padding: 8px;/*Con el padding lograremos darle un espacio relleno*/
+}
+
+#informacion3{
+    display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+}
+
+#informacion3 i{
+    padding: 15px;/*Con el padding lograremos darle un espacio relleno*/
+}
+
+#lista p {
+    margin: 0 0 2em 0; /* Establece el margen en orden: arriba, derecha, abajo, izquierda, creando un margen de 2em en la parte inferior del elemento. */
+    display: block; /* Hace que el elemento sea de tipo bloque, ocupando el ancho máximo disponible. */
+    margin-block-start: 1em; /* Define el margen de bloque en el inicio lógico del elemento. */
+    margin-block-end: 1em; /* Define el margen de bloque en el fin lógico del elemento. */
+    margin-inline-start: 0px; /* Define el margen en el inicio lógico del elemento en el eje horizontal. */
+    margin-inline-end: 0px; /* Define el margen en el fin lógico del elemento en el eje horizontal. */
+}
+
+#lista button {
+    color: #f56a6a; /* Color del texto */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: 600; /* Anchura del texto */
+    text-decoration: none; /* Elimina la decoración de texto, como subrayado */
+    padding: 15px 40px; /* Relleno: arriba, derecha, abajo, izquierda */
+    background-color: #f5f6f7; /* Color de fondo */
+    border-color: #f56a6a; /* Color del borde */
+    border-width: 3px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+    margin: 0; /* Márgenes */
+}
+
+#encabezado {
+    display: flex; /* Permite maquetar la página de manera más flexible */
+    margin: 20px; /* Márgenes */
+    border-bottom: solid #f56a6a; /* Borde inferior */
+    padding-bottom: 25px; /* Relleno inferior */
+}
+
+#cuerpo {
+    align-items: center; /* Alineación vertical al centro */
+    justify-content: center; /* Justificación horizontal al centro */
+    margin: 3px; /* Márgenes */
+}
+
+#container {
+    display: flex; /* Permite maquetar la página de manera más flexible */
+    font-size: 1.5em; /* Tamaño de fuente */
+    flex-grow: 1; /* Factor de crecimiento para elementos flexibles */
+}
+
+.iconos {
+    color: #3d4449; /* Color del texto */
+    text-decoration: none; /* Elimina la decoración de texto */
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex; /* Permite maquetar la página de manera más flexible */
+    margin-left: 1130px; /* Márgen izquierdo */
+}
+
+#inicio {
+    display: flex; /* Permite maquetar la página de manera más flexible */
+    margin: 40px; /* Márgenes */
+}
+
+#texto h1 {
+    color: #3d4449; /* Color del texto */
+    font-size: 3.5rem; /* Tamaño de fuente */
+    font-family: "Roboto Slab", serif; /* Fuente de letra */
+    font-weight: 700; /* Anchura del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+#simboloMenu {
+    color: #f56a6a; /* Color del texto */
+    padding: 15px; /* Relleno */
+}
+
+#inicio button {
+    color: #f56a6a; /* Color del texto */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: 600; /* Anchura de la fuente */
+    text-decoration: none; /* Elimina la decoración de texto */
+    padding: 15px 40px; /* Relleno: arriba, derecha, abajo, izquierda */
+    background-color: white; /* Color de fondo */
+    border-color: #f56a6a; /* Color del borde */
+    border-width: 3px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+}
+
+#textoMedio {
+    color: gray; /* Color de este apartado */
+    text-decoration: none; /* Elimina la decoración de texto */
+    width: 650px; /* Anchura */
+}
+
+#query {
+    display: block; /* Hace que el elemento sea de tipo bloque, ocupando el ancho máximo disponible */
+    background: #ffffff; /* Color de fondo */
+    border-radius: 0.375em; /* Estilo de borde */
+    border: solid 1px rgba(210, 215, 217, 0.75); /* Tamaño y color del borde */
+    color: inherit; /* Color del texto */
+    outline: 0;
+    padding: 0 1em; /* Relleno: arriba, derecha, abajo, izquierda */
+    width: 80%; /* Anchura al 80% */
+    height: 2.75em; /* Altura del apartado */
+}
+
+#buscador {
+    background-color: #eff1f2; /* Color de fondo */
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75); /* Borde inferior */
+    margin: -2em; /* Márgenes */
+    padding: 2em; /* Relleno */
+    width: 94%; /* Anchura */
+}
+
+#erat-lacinia h2 {
+    color: #3d4449; /* Color de este apartado */
+    font-size: 1.75em; /* Tamaño de fuente */
+    font-family: "Roboto Slab", serif; /* Fuente de letra */
+    font-weight: 700; /* Anchura del texto */
+    border-bottom: solid 3px #f56a6a; /* Tamaño y color del borde */
+    display: inline-block; /* Crea cajas que son de bloque y en línea de forma simultánea */
+    margin: 40px; /* Márgenes */
+    padding-bottom: 10px; /* Relleno inferior */
+}
+
+#erat-lacinia {
+    margin: 10px; /* Márgenes */
+}
+
+#parrafos {
+    display: flex; /* Permite maquetar la página de manera más flexible */
+    padding: 20px; /* Relleno */
+}
+
+#icono1 {
+    float: left; /* Mueve este apartado a la izquierda */
+    padding: 42px; /* Relleno */
+    border: solid gray 1px; /* Tamaño y color del borde */
+    color: #f56a6a; /* Color de este apartado */
+    margin-right: 35px; /* Márgen derecho */
+    transform: rotate(45deg); /* Rotación del borde */
+}
+
+#icono2 {
+    float: left; /* Mueve este apartado a la izquierda */
+    padding: 40px; /* Relleno */
+    border: solid gray 1px; /* Tamaño y color del borde */
+    color: #f56a6a; /* Color de este apartado */
+    margin-right: 35px; /* Márgen derecho */
+    transform: rotate(45deg); /* Rotación de este apartado */
+}
+
+.lineas hr {
+    margin: 50px; /* Márgenes */
+}
+
+#textoIcono1 {
+    margin: 2%; /* Márgenes */
+}
+#textoIcono1 h3 {
+    color: #3d4449; /* Color de este apartado */
+    font-size: 1.25em; /* Tamaño de fuente */
+    padding: 10px; /* Relleno */
+}
+
+#textoIcono2 {
+    margin: 2%; /* Márgenes */
+}
+#textoIcono2 h3 {
+    color: #3d4449; /* Color de este apartado */
+    font-size: 1.25em; /* Tamaño de fuente */
+    padding: 10px; /* Relleno */
+}
+
+#icono3 {
+    float: left; /* Mueve este apartado a la izquierda */
+    padding: 46px; /* Relleno */
+    border: solid gray 1px; /* Tamaño y color del borde */
+    color: #f56a6a; /* Color de este apartado */
+    margin-right: 35px; /* Márgen derecho */
+    transform: rotate(45deg); /* Rotación de este apartado */
+}
+
+
+#textoIcono3 {
+    margin: 2%; /* Márgenes */
+}
+#textoIcono3 h3 {
+    color: #3d4449; /* Color de este apartado */
+    font-size: 1.25em; /* Tamaño de fuente */
+    padding: 5px; /* Relleno */
+}
+
+
+#textoIcono4 {
+    margin: 2%; /* Márgenes */
+}
+#textoIcono4 h3 {
+    color: #3d4449; /* Color de este apartado */
+    font-size: 1.25em; /* Tamaño de fuente */
+    padding: 10px; /* Relleno */
+    padding-left: 3px; /* Relleno izquierdo */
+}
+
+
+#icono4 {
+    float: left; /* Mueve el apartado a la izquierda */
+    padding: 42px; /* Relleno */
+    border: solid gray 1px; /* Tamaño y color del borde */
+    color: #f56a6a; /* Color de este apartado */
+    margin-right: 35px; /* Márgen derecho */
+    transform: rotate(45deg); /* Rotación de este apartado */
+}
+
+
+#icono4 i {
+    transform: rotate(-45deg); /* Rotación de este apartado */
+}
+
+
+#icono3 i {
+    transform: rotate(-45deg); /* Rotación de este apartado */
+}
+#icono2 i {
+    transform: rotate(-45deg); /* Rotación de este apartado */
+}
+
+
+#icono1 i {
+    transform: rotate(-45deg); /* Rotación de este apartado */
+}
+
+
+#final {
+    margin: 40px; /* Márgenes */
+}
+
+
+#final h2 {
+    color: #3d4449; /* Color de este apartado */
+    font-size: 1.75em; /* Tamaño de fuente */
+    font-family: "Roboto Slab", serif; /* Fuente de letra */
+    border-bottom: solid 3px #f56a6a; /* Tamaño y color del borde */
+    display: inline-block; /* Crea cajas que son de bloque y en línea de forma simultánea */
+    padding-bottom: 10px; /* Relleno inferior */
+}
+
+
+#imagenes {
+    display: flex; /* Permite maquetar la página de manera más flexible */
+}
+
+#imagenes p {
+    margin-right: 20px; /* Márgen derecho */
+    margin-bottom: 10px; /* Márgen inferior */
+}
+
+#imagenes h3 {
+    font-size: 1.25em; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Márgen inferior */
+}
+
+#imagenes button {
+    font-size: 1.25em; /* Tamaño de fuente */
+    margin-bottom: 3px; /* Márgen inferior */
+    background-color: white; /* Color de fondo */
+    border: 1px solid #f56a6a; /* Tamaño y color del borde */
+    color: #f56a6a; /* Color del texto */
+}
